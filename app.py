@@ -6,6 +6,8 @@ app = Flask(__name__)
 @app.route('/api/roofingmodel/<claim_id>', methods=['GET'])
 def roofing_model(claim_id):
     # Stub implementation - returns basic response with claim_id
+    # FETCH PHOTO's HERE
+    # CALL THE AI MODEL HERE.
     return jsonify({
         'claim_id': claim_id,
         'status': 'success',
